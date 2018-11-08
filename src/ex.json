@@ -1,0 +1,41 @@
+{  
+    "protocol": {
+        "http": [
+            "https://www.youtube.com/watch?v=fxeSvAsqzlo",
+            "https://www.youtube.com",
+            "sdfasdf"
+        ],
+        "smtp": [
+            "server1",
+            "server2"
+        ]
+    },
+    "port": [
+        {
+            "server": "google.com",
+            "port": "80"
+        }, {
+            "server": "youtube.com",
+            "port": "80"
+        }, {
+            "server": "localhost",
+            "port": "8081"
+        }, {
+            "server": "localhost",
+            "port": "8080"
+        }, {
+            "server": "smtp.gmail.com",
+            "port": "465"
+        },{
+            "server": "pop.gmail.com",
+            "port": "995"
+        },{
+            "server": "pop.gmail.comafdwr",
+            "port": "995"
+        },{
+            "server": "plus.smtp.mail.yahoo.com",
+            "port": "8080"
+        }
+    ],
+    "address": ""
+}

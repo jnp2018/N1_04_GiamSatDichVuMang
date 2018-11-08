@@ -1,0 +1,15 @@
+"D:\LTM\LTM\src\src\prunsrv.exe" //IS//LTM^
+ --DisplayName "Lap Trinh Mang"^
+ --Description "An example to show how installing services with procrun works."^
+ --Startup=auto^
+ --Install="D:\LTM\LTM\src\src\prunsrv.exe"^
+ --Jvm="C:\Program Files\Java\jre1.8.0_191\bin\server\jvm.dll" ^
+ --Classpath "D:\LTM\LTM\src\dist\BTL.GiamSatDichVuMang.jar"^
+ --Environment="PATH=C:\Program Files\Java\jre1.8.0_191\bin"^
+ --JavaHome="C:\Program Files\Java\jre1.8.0_191"^
+ --StartPath=D:\LTM\LTM\src\src\^
+ --JvmOptions="-XX:+HeapDumpOnOutOfMemoryError"^
+ --StartMode=jvm^
+ --StartClass=view.Main^
+ --StdOutput=D:\LTM\LTM\src\log\out.log^
+ --StdError=D:\LTM\LTM\src\log\err.log
